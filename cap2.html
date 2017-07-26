@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="es" ng-app>
+
+<head>
+  <meta charset="utf-8">
+  <title>Modelo en scope</title>
+</head>
+
+<body ng-controller="AlumnosController">
+    {{alumno.nombre}} estudia {{alumno.curso}}
+
+  <!-- Agregamos angular para que funcione  -->
+  <script type= "text/javascript" src="angular.min.js"></script>
+
+  <script type= "text/javascript">
+
+  	function AlumnosController($scope){
+  		
+  		console.log($scope);
+
+			$scope.alumno = {  // el modelo que definimos alumno. almacena sus datos como "tabla hash"
+		  		nombre: "osmel",
+		  		curso: "matematica"
+		  	}
+  	}
+  	
+  </script>
+  
+</body>
+</html>

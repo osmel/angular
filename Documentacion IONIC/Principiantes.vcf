@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION;TYPE=WORK:3.0
+FN;CHARSET=UTF-8:Ion Book
+N;CHARSET=UTF-8:Ion Book;;;;
+PROFILE:VCARD
+ADR;CHARSET=UTF-8:;;Viana 273;Viña del Mar;;2571529;Chile
+EMAIL:todos@ion-book.com
+ORG;CHARSET=UTF-8:Ion-Book
+URL:http://www.ion-book.com
+END:VCARD
