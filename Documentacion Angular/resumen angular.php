@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=v5MRjk8Lj5o&list=PLEtcGQaT56cgHfdvGguisToK90z321
 	https://angularjs.org/
 
 2-
-
+ 
 Ejemplo: Creando un modelo que se llama "creadores"
 	<body ng-app ng-init= " Creadores='osmel calderon'" >	</body>
 
@@ -149,4 +149,19 @@ scope.js
 		  	
   	}
 
-/////////////////////////////////////4///////////////////////////////////////////////
+/////////////////////////////////////4 scope///////////////////////////////////////////////
+
+scope: Determina el alcance, los limites de cualquier parte  de una app angularjs
+     
+     - Es un "objeto" que se refiere al modelo de la aplicacion y proporciona un contexto de ejecucion para las expresiones de las vistas
+
+     -El scope permite :vincular "modelos, vistas y controladores"
+
+     -cada app angularjs siempre tiene un scope raiz(que se crea en la directiva ng-app)
+
+     -Los scope estan ordenados de un modo jerarquico, siguiendo la estructura de una pagina
+       y los scope de modo general heredan de los "scope padres"
+       -solo existe una excepcion que son los llamados scope aislados que no heredan de nadie
+
+
+/////////////////////////////////////5- Uso de filtro///////////////////////////////////////////////

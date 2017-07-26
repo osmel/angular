@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="es" ng-app>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cap 3</title>
+  
+  <LINK href="style.css"  rel="stylesheet" type="text/css">
+
+</head>
+
+<body ng-controller="AlumnosController">
+		<h1> Cuadernos alumnos</h1>
+
+	<div class="wrapper">
+		<div class="contact-item" ng-repeat="alumno in alumnos">
+			<div> {{alumno.nombre}} - {{alumno.telefono}}	</div>	
+			<span> {{alumno.curso}} </span>	
+		</div>
+	</div>
+
+  <!-- Agregamos angular para que funcione  -->
+  <script type= "text/javascript" src="angular.min.js"></script>
+  <script type= "text/javascript" src="scope.js"></script>
+  
+</body>
+</html>
